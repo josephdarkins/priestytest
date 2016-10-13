@@ -4,8 +4,8 @@ var app = express();
 var port = process.env.PORT || 3000;
 
 app.get('/', function(req, res) {
-    res.send('Hello Priesty!');
-    console.log('Hello priesty \n');
+    res.send('Hello Priesty again!!!');
+    console.log('Hello priesty again!! \n');
 });
 
 app.listen(port, function () {
