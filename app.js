@@ -10,3 +10,7 @@ app.get('/', function(req, res) {
     res.send('Hello Priesty!');
     console.log('Hello priesty \n');
 });
+
+app.listen(port, function () {
+  console.log('SMS receive app listening on port 3000!');
+});
